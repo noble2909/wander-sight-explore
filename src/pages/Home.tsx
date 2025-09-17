@@ -45,16 +45,16 @@ const Home = () => {
         
         <div className="relative z-10 container mx-auto px-4 text-center text-white">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Travel Before
+            Discover with
             <br />
-            <span className="text-secondary">You Travel</span>
+            <span className="text-secondary">Cluetivity</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90">
             Experience destinations, hotels, and cultures in augmented reality. 
             Make confident travel decisions with immersive virtual previews.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-secondary hover:opacity-90 text-foreground text-lg px-8 py-4">
+            <Button size="lg" className="bg-gradient-purple hover:opacity-90 text-secondary-foreground text-lg px-8 py-4">
               Start AR Experience
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
@@ -176,7 +176,7 @@ const Home = () => {
             ))}
             <span className="ml-2 text-lg">4.9/5 from 2,000+ reviews</span>
           </div>
-          <Button size="lg" className="bg-secondary hover:opacity-90 text-foreground text-lg px-8 py-4">
+          <Button size="lg" className="bg-gradient-purple hover:opacity-90 text-secondary-foreground text-lg px-8 py-4">
             Start Your AR Journey
             <ArrowRight className="ml-2 w-5 h-5" />
           </Button>

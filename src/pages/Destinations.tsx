@@ -2,7 +2,12 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { MapPin, Clock, Users, ArrowRight } from "lucide-react";
-import landmarksImage from "@/assets/ar-landmarks.jpg";
+import colosseumImage from "@/assets/colosseum-rome.jpg";
+import machupicchImage from "@/assets/machu-picchu.jpg";
+import tajmahalImage from "@/assets/taj-mahal.jpg";
+import greatwallImage from "@/assets/great-wall-china.jpg";
+import pyramidsImage from "@/assets/pyramids-giza.jpg";
+import eiffeltowerImage from "@/assets/eiffel-tower.jpg";
 
 const Destinations = () => {
   const destinations = [
@@ -10,7 +15,7 @@ const Destinations = () => {
       id: 1,
       name: "Colosseum, Rome",
       location: "Rome, Italy",
-      image: landmarksImage,
+      image: colosseumImage,
       arFeatures: ["Historical Timeline", "3D Reconstruction", "Gladiator Battles"],
       duration: "45 min",
       rating: 4.9,
@@ -21,7 +26,7 @@ const Destinations = () => {
       id: 2,
       name: "Machu Picchu",
       location: "Peru",
-      image: landmarksImage,
+      image: machupicchImage,
       arFeatures: ["Inca Civilization", "Sacred Rituals", "Ancient Astronomy"],
       duration: "60 min", 
       rating: 4.8,
@@ -32,7 +37,7 @@ const Destinations = () => {
       id: 3,
       name: "Taj Mahal",
       location: "Agra, India",
-      image: landmarksImage,
+      image: tajmahalImage,
       arFeatures: ["Love Story", "Construction Timeline", "Architectural Details"],
       duration: "40 min",
       rating: 4.9,
@@ -43,7 +48,7 @@ const Destinations = () => {
       id: 4,
       name: "Great Wall",
       location: "Beijing, China",
-      image: landmarksImage,
+      image: greatwallImage,
       arFeatures: ["Dynasty History", "Defense Systems", "Construction Process"],
       duration: "55 min",
       rating: 4.7,
@@ -54,7 +59,7 @@ const Destinations = () => {
       id: 5,
       name: "Pyramids of Giza",
       location: "Cairo, Egypt",
-      image: landmarksImage,
+      image: pyramidsImage,
       arFeatures: ["Pharaoh Stories", "Construction Mysteries", "Star Alignment"],
       duration: "50 min",
       rating: 4.8,
@@ -65,7 +70,7 @@ const Destinations = () => {
       id: 6,
       name: "Eiffel Tower",
       location: "Paris, France", 
-      image: landmarksImage,
+      image: eiffeltowerImage,
       arFeatures: ["Engineering Marvel", "Historical Events", "Night Illumination"],
       duration: "35 min",
       rating: 4.9,

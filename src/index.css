@@ -20,8 +20,8 @@ All colors MUST be HSL.
     --primary: 210 85% 25%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 25 95% 65%;
-    --secondary-foreground: 210 20% 10%;
+    --secondary: 260 85% 65%;
+    --secondary-foreground: 0 0% 98%;
 
     --muted: 210 40% 96%;
     --muted-foreground: 210 20% 45%;
@@ -38,7 +38,7 @@ All colors MUST be HSL.
 
     /* Travel-inspired gradients */
     --gradient-ocean: linear-gradient(135deg, hsl(210 85% 25%), hsl(175 85% 35%));
-    --gradient-sunset: linear-gradient(135deg, hsl(25 95% 65%), hsl(15 90% 55%));
+    --gradient-purple: linear-gradient(135deg, hsl(260 85% 65%), hsl(280 75% 55%));
     --gradient-sky: linear-gradient(180deg, hsl(210 85% 35%), hsl(210 40% 96%));
     --gradient-hero: linear-gradient(135deg, hsl(210 85% 25% / 0.9), hsl(175 85% 35% / 0.8));
     
@@ -78,7 +78,7 @@ All colors MUST be HSL.
     --primary: 175 85% 55%;
     --primary-foreground: 210 25% 8%;
 
-    --secondary: 25 85% 45%;
+    --secondary: 260 75% 55%;
     --secondary-foreground: 210 20% 98%;
 
     --muted: 210 25% 15%;

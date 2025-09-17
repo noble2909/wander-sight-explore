@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Play, Clock, Star, Users, MapPin, ArrowRight } from "lucide-react";
-import heroImage from "@/assets/ar-travel-hero.jpg";
+import arToursImage from "@/assets/ar-tours-modern.jpg";
 
 const ArTours = () => {
   const tours = [
@@ -10,7 +10,7 @@ const ArTours = () => {
       id: 1,
       name: "Ancient Rome Walking Tour",
       location: "Rome, Italy",
-      image: heroImage,
+      image: arToursImage,
       guide: "Dr. Maria Rossi",
       duration: "2.5 hours",
       rating: 4.9,
@@ -26,7 +26,7 @@ const ArTours = () => {
       id: 2,
       name: "Secrets of Machu Picchu",
       location: "Cusco, Peru",
-      image: heroImage,
+      image: arToursImage,
       guide: "Carlos Mendoza",
       duration: "3 hours",
       rating: 4.8,
@@ -42,7 +42,7 @@ const ArTours = () => {
       id: 3,
       name: "Pharaohs' Egypt Experience",
       location: "Giza, Egypt",
-      image: heroImage,
+      image: arToursImage,
       guide: "Dr. Ahmed Hassan",
       duration: "4 hours",
       rating: 4.9,
@@ -58,7 +58,7 @@ const ArTours = () => {
       id: 4,
       name: "Samurai Japan Journey",
       location: "Kyoto, Japan",
-      image: heroImage,
+      image: arToursImage,
       guide: "Hiroshi Tanaka",
       duration: "3.5 hours",
       rating: 4.7,
@@ -74,7 +74,7 @@ const ArTours = () => {
       id: 5,
       name: "Viking Saga Adventure",
       location: "Bergen, Norway",
-      image: heroImage,
+      image: arToursImage,
       guide: "Erik Nordahl",
       duration: "2 hours",
       rating: 4.6,
@@ -90,7 +90,7 @@ const ArTours = () => {
       id: 6,
       name: "Maya Civilization Deep Dive",
       location: "Chichen Itza, Mexico",
-      image: heroImage,
+      image: arToursImage,
       guide: "Dr. Isabella Cruz",
       duration: "3 hours",
       rating: 4.8,
@@ -301,7 +301,7 @@ const ArTours = () => {
             Share your expertise and passion for history through our AR platform. 
             Join our network of expert guides from around the world.
           </p>
-          <Button className="bg-secondary hover:opacity-90 text-secondary-foreground">
+          <Button className="bg-gradient-purple hover:opacity-90 text-secondary-foreground">
             Apply to Guide
           </Button>
         </div>

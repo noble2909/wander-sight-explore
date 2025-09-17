@@ -2,15 +2,20 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { MapPin, Wifi, Car, Coffee, Star, Eye, ArrowRight } from "lucide-react";
-import hotelsImage from "@/assets/ar-hotels.jpg";
+import marinaBayImage from "@/assets/marina-bay-sands.jpg";
+import burjAlArabImage from "@/assets/burj-al-arab.jpg";
+import santoriniImage from "@/assets/santorini-hotel.jpg";
+import maldivesImage from "@/assets/maldives-resort.jpg";
+import swissImage from "@/assets/swiss-chalet.jpg";
+import tokyoImage from "@/assets/tokyo-hotel.jpg";
 
 const Hotels = () => {
   const hotels = [
     {
       id: 1,
-      name: "Grand Palace Resort",
-      location: "Bali, Indonesia",
-      image: hotelsImage,
+      name: "Marina Bay Sands",
+      location: "Singapore",
+      image: marinaBayImage,
       rating: 4.9,
       reviews: 1234,
       price: "$299",
@@ -21,9 +26,9 @@ const Hotels = () => {
     },
     {
       id: 2,
-      name: "Urban Sky Hotel",
-      location: "Tokyo, Japan",
-      image: hotelsImage,
+      name: "Burj Al Arab",
+      location: "Dubai, UAE",
+      image: burjAlArabImage,
       rating: 4.8,
       reviews: 892,
       price: "$189",
@@ -34,9 +39,9 @@ const Hotels = () => {
     },
     {
       id: 3,
-      name: "Mountain Lodge Retreat",
-      location: "Aspen, Colorado",
-      image: hotelsImage,
+      name: "Santorini Cave Hotel",
+      location: "Santorini, Greece",
+      image: santoriniImage,
       rating: 4.7,
       reviews: 567,
       price: "$349",
@@ -47,9 +52,9 @@ const Hotels = () => {
     },
     {
       id: 4,
-      name: "Seaside Boutique",
-      location: "Santorini, Greece",
-      image: hotelsImage,
+      name: "Maldives Resort",
+      location: "Maldives",
+      image: maldivesImage,
       rating: 4.9,
       reviews: 743,
       price: "$429",
@@ -60,9 +65,9 @@ const Hotels = () => {
     },
     {
       id: 5,
-      name: "Desert Oasis Resort",
-      location: "Dubai, UAE",
-      image: hotelsImage,
+      name: "Swiss Alpine Chalet",
+      location: "Swiss Alps",
+      image: swissImage,
       rating: 4.8,
       reviews: 1056,
       price: "$399",
@@ -73,9 +78,9 @@ const Hotels = () => {
     },
     {
       id: 6,
-      name: "Historic Manor House",
-      location: "Tuscany, Italy",
-      image: hotelsImage,
+      name: "Tokyo Sky Hotel",
+      location: "Tokyo, Japan",
+      image: tokyoImage,
       rating: 4.7,
       reviews: 445,
       price: "$279",

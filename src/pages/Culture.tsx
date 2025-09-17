@@ -2,7 +2,9 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, Users, Music, Globe, ArrowRight } from "lucide-react";
-import cultureImage from "@/assets/ar-culture.jpg";
+import japaneseImage from "@/assets/japanese-culture.jpg";
+import indianImage from "@/assets/indian-culture.jpg";
+import spanishImage from "@/assets/spanish-culture.jpg";
 
 const Culture = () => {
   const experiences = [
@@ -10,7 +12,7 @@ const Culture = () => {
       id: 1,
       name: "Carnival of Rio",
       location: "Rio de Janeiro, Brazil",
-      image: cultureImage,
+      image: spanishImage,
       type: "Festival",
       date: "February 2024",
       participants: "2M+",
@@ -23,7 +25,7 @@ const Culture = () => {
       id: 2,
       name: "Japanese Tea Ceremony",
       location: "Kyoto, Japan",
-      image: cultureImage,
+      image: japaneseImage,
       type: "Tradition",
       date: "Year Round",
       participants: "50K+",
@@ -36,7 +38,7 @@ const Culture = () => {
       id: 3,
       name: "Diwali Festival",
       location: "Mumbai, India",
-      image: cultureImage,
+      image: indianImage,
       type: "Religious",
       date: "October/November",
       participants: "1B+",
@@ -49,7 +51,7 @@ const Culture = () => {
       id: 4,
       name: "Flamenco Experience",
       location: "Seville, Spain",
-      image: cultureImage,
+      image: spanishImage,
       type: "Dance",
       date: "Year Round",
       participants: "100K+",
@@ -62,7 +64,7 @@ const Culture = () => {
       id: 5,
       name: "Aboriginal Dreamtime",
       location: "Uluru, Australia",
-      image: cultureImage,
+      image: japaneseImage,
       type: "Spiritual",
       date: "Year Round",
       participants: "25K+",
@@ -75,7 +77,7 @@ const Culture = () => {
       id: 6,
       name: "Viking Heritage",
       location: "Bergen, Norway",
-      image: cultureImage,
+      image: indianImage,
       type: "Historical",
       date: "Year Round",
       participants: "75K+",
@@ -196,7 +198,7 @@ const Culture = () => {
                   </div>
                 </div>
                 
-                <Button className="w-full bg-gradient-sunset hover:opacity-90 text-white">
+                <Button className="w-full bg-gradient-purple hover:opacity-90 text-secondary-foreground">
                   Join Experience
                   <ArrowRight className="ml-2 w-4 h-4" />
                 </Button>
@@ -263,7 +265,7 @@ const Culture = () => {
             Are you a cultural expert or community leader? Partner with us to share 
             your traditions with the world through respectful AR experiences.
           </p>
-          <Button className="bg-secondary hover:opacity-90 text-secondary-foreground">
+          <Button className="bg-gradient-purple hover:opacity-90 text-secondary-foreground">
             Become a Cultural Partner
           </Button>
         </div>

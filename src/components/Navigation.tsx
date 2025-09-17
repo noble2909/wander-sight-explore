@@ -26,7 +26,7 @@ const Navigation = () => {
             <div className="w-8 h-8 bg-gradient-ocean rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-sm">AR</span>
             </div>
-            <span className="font-bold text-xl text-foreground">TravelAR</span>
+            <span className="font-bold text-xl text-foreground">Cluetivity</span>
           </Link>
 
           {/* Desktop Navigation */}

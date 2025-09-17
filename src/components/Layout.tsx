@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import Navigation from "./Navigation";
+import Footer from "./Footer";
 
 interface LayoutProps {
   children: ReactNode;
@@ -12,6 +13,7 @@ const Layout = ({ children }: LayoutProps) => {
       <main className="pt-16">
         {children}
       </main>
+      <Footer />
     </div>
   );
 };

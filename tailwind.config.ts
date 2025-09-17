@@ -65,7 +65,7 @@ export default {
       },
       backgroundImage: {
         'gradient-ocean': 'var(--gradient-ocean)',
-        'gradient-sunset': 'var(--gradient-sunset)',
+        'gradient-purple': 'var(--gradient-purple)',
         'gradient-sky': 'var(--gradient-sky)',
         'gradient-hero': 'var(--gradient-hero)',
       },
