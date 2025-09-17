@@ -63,6 +63,16 @@ export default {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      backgroundImage: {
+        'gradient-ocean': 'var(--gradient-ocean)',
+        'gradient-sunset': 'var(--gradient-sunset)',
+        'gradient-sky': 'var(--gradient-sky)',
+        'gradient-hero': 'var(--gradient-hero)',
+      },
+      boxShadow: {
+        'ar': 'var(--shadow-ar)',
+        'travel': 'var(--shadow-travel)',
+      },
       keyframes: {
         "accordion-down": {
           from: {
